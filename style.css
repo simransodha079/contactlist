@@ -1,0 +1,26 @@
+
+body {
+    background-color: #f8f9fa; /* Light gray background color */
+}
+
+.container {
+    background-image: url('31815384.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    padding: 20px; /* Add some padding to the container */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+    color: #fff; /* White text color */
+}
+
+.table th, .table td {
+    color: #fff; /* White text color for table cells */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background color for odd rows */
+}
+
+.table-striped tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background color on hover */
+}
